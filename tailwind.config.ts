@@ -9,8 +9,23 @@ export default {
   theme: {
     extend: {
       colors: {
+        accent: "#aeaeae",
+        gold: "#fde382",
+        dark: "#111111",
+        light: "#faf8f4",
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
     },
   },
