@@ -50,7 +50,7 @@ export default function Awards() {
               transition={{
                 duration: (idx + 1) * 0.8,
                 delay: 0.3,
-                type: "spring",
+                type: "keyframes",
               }}
             >
               <Header className="xl:text-5xl">{stat.value}</Header>

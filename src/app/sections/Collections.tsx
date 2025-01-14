@@ -71,7 +71,7 @@ export default function Collections() {
               transition={{
                 duration: (idx + 1) * 0.7,
                 delay: 0.3,
-                type: "spring",
+                type: "keyframes",
               }}
               key={idx}
             >
@@ -97,7 +97,7 @@ export default function Collections() {
         ref={buttonRef}
         {...toTop}
         animate={isbuttonInView && toTop.animate}
-        transition={{ duration: 1.2, type: "spring" }}
+        transition={{ duration: 1.2, type: "keyframes" }}
         className="py-20 text-center"
       >
         <Button title="new collections" />
