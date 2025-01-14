@@ -55,7 +55,7 @@ export default function Collections() {
               key={idx}
               className={`xl:text-2xl md:text-xl capitalize  ${
                 idx === 0 ? "text-dark line-through" : "text-dark/60"
-              } ${Fonts.myFont.className}`}
+              } ${Fonts.glaston.className}`}
             >
               {collection}
             </motion.button>

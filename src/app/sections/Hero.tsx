@@ -82,7 +82,7 @@ export default function Hero() {
               <div className="flex items-center gap-3">
                 <Image alt="gap" src={item.img} height={35} width={35} />
                 <div
-                  className={`-space-y-1 capitalize ${Fonts.myFont.className}`}
+                  className={`-space-y-1 capitalize ${Fonts.glaston.className}`}
                 >
                   <p> {item.title}</p>
                   <p> {item.title2}</p>

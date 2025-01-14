@@ -82,7 +82,7 @@ export default function Aboutus() {
             {isPlaying ? <IoPauseSharp /> : <IoPlaySharp />}
           </motion.button>
           <div
-            className={`text-xl md:rotate-90 text-nowrap md:w-2 ${Fonts.myFont.className}`}
+            className={`text-xl md:rotate-90 text-nowrap md:w-2 ${Fonts.glaston.className}`}
           >
             Watch Video
           </div>

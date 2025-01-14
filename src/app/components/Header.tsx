@@ -9,6 +9,6 @@ export default function Header({
   className?: string;
 }) {
   return (
-    <div className={` ${Fonts.myFont.className} ${className}`}>{children}</div>
+    <div className={` ${Fonts.glaston.className} ${className}`}>{children}</div>
   );
 }
